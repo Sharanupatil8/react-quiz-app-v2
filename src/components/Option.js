@@ -9,13 +9,18 @@ function Option({
   handleSetUserPoints,
 }) {
   const isCorrect = questions.correctOption === index;
-
   const handleAnswer = () => {
     // Check if the question has already been answered
-    if (answered === null) {
-      setAnswered(index);
+    if (answered !== null) {
+      return;
     }
+
+    // Set the answered state
+    setAnswered(index);
+
+    // Check if the selected option is correct
     if (isCorrect) {
+      // Update points if the answer is correct
       handleSetUserPoints(questions.points);
     }
   };
