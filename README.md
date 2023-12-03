@@ -1,6 +1,6 @@
 
 
-#React Quiz App v2
+# React Quiz App v2
 
 
 project link : https://react-quiz-app-sharan-v2.vercel.app/
