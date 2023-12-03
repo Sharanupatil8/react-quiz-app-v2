@@ -1,3 +1,18 @@
+#React Quiz App v2
+project link : https://react-quiz-app-sharan-v2.vercel.app/
+Overview
+This is a React-based quiz application designed for interactive and engaging quizzes. The app allows users to answer multiple-choice questions, provides instant feedback, and calculates user points based on correct answers.
+![Screenshot 2023-12-03![Screenshot 2023-12-03 170524](https://github.com/Sharanupatil8/react-quiz-app-v2/assets/93566630/999891c6-62e3-4807-95d5-8919dd1d42f0)
+ 173122](https://github.com/Sharanupatil8/react-quiz-app-v2/assets/93566630/c81f324f-36d3-4fbc-ab72-75a683cc4046)
+![Screenshot 2023-12-03 172537](https://github.com/Sharanupatil8/react-quiz-app-v2/assets/93566630/6fe4386b-7d60-445f-91d7-5840a173a696)
+![Screenshot 2023-12-03 172706](https://github.com/Sharanupatil8/react-quiz-app-v2/assets/93566630/07be14d0-dfd9-4ceb-88e9-2755c8c1c258)
+
+Features
+User-friendly interface.
+Multiple-choice questions with dynamic options.
+Real-time feedback on selected answers.
+Point calculation for correct answers.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
