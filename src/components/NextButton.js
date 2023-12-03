@@ -6,7 +6,7 @@ function NextButton({ setQuestionNumber, setAnswered }) {
     setAnswered(null);
   };
   return (
-    <button onClick={handleNextQuestion} className="btn-slate ">
+    <button onClick={handleNextQuestion} className="btn-slate float-right">
       Next
     </button>
   );
