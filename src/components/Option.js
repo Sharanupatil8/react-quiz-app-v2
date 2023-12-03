@@ -26,20 +26,20 @@ function Option({
   };
 
   return (
-    <>
-      <li
-        onClick={handleAnswer}
-        className={`btn-options cursor-pointer ${
-          answered !== null
-            ? isCorrect
-              ? "bg-green-500 text-slate-800"
-              : "bg-orange-500 text-slate-800"
-            : ""
-        } ${answered === index ? "translate-x-2" : ""}`}
-      >
-        {option}
-      </li>
-    </>
+    <button
+      onClick={handleAnswer}
+      className={`btn-options cursor-pointer ${
+        answered !== null
+          ? isCorrect
+            ? "bg-green-500 text-slate-800"
+            : "bg-orange-500 text-slate-800"
+          : ""
+      } ${answered === index ? "translate-x-2" : ""}  ${
+        answered !== null ? "pointer-events-none" : ""
+      }`}
+    >
+      {option}
+    </button>
   );
 }
 

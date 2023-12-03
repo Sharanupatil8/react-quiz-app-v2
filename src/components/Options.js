@@ -5,7 +5,7 @@ import Option from "./Option";
 function Options(props) {
   console.log(props);
   return (
-    <ul className="flex flex-col space-y-5  mt-8 md:mt-6">
+    <div className="flex flex-col space-y-5  mt-8 md:mt-6">
       {props.options.map((option, index) => (
         <Option
           option={option}
@@ -17,7 +17,7 @@ function Options(props) {
           handleSetUserPoints={props.handleSetUserPoints}
         />
       ))}
-    </ul>
+    </div>
   );
 }
 

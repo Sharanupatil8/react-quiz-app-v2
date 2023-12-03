@@ -6,6 +6,7 @@ import { reactQuizQuestions } from "./reactQuizQuestions";
 import Footer from "./components/Footer";
 import NextButton from "./components/NextButton";
 import EndScreen from "./components/EndScreen";
+import Copyright from "./components/Copyright";
 
 console.log(reactQuizQuestions);
 
@@ -35,10 +36,10 @@ function App() {
   console.log(totalScore);
 
   return (
-    <div className="antialiased px-5 pt-8 md:pt-14 text-slate-600  dark:text-slate-300 bg-white dark:bg-slate-900 h-screen flex flex-col items-center">
+    <div className="antialiased px-5 pt-8 md:pt-14 text-slate-600 dark:text-slate-300 bg-white dark:bg-slate-900 h-screen flex flex-col items-center">
       <Header />
 
-      <main className="max-w-5xl">
+      <main className="max-w-5xl relative ">
         {!questionsReady && (
           <WelcomeScreen setQuestionsReady={setQuestionsReady} />
         )}
