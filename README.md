@@ -13,7 +13,7 @@ Multiple-choice questions with dynamic options.
 Real-time feedback on selected answers.
 Point calculation for correct answers.
 
-# Getting Started with Create React App
+ Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
